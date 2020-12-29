@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #f8f9fa;
+  padding-bottom: 20px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+#title {
+  background-color: #ff4c68;
+  margin: auto;
+  text-align: left;
+}
+
+#features {
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 100px 0;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.dog-image {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right: 23%;
+}
+
+@media (max-width: 1030px) and (min-width: 992px) {
+  .dog-image {
+    position: static;
+    width: 90%;
+    transform: rotate(0);
+  }
+
+  .bdownload {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog-image {
+    position: static;
+    width: 70%;
+    transform: rotate(0);
+  }
+}
+
+.main-page-text-alignments {
+  padding: 3% 15% 6.5%;
+}
+
+/* navigation background */
+.navbar-brand {
+  font-family: "Ubuntu";
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+}
+
+/* title image */
+.three-features {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.three-features-p {
+  width: 80%;
+  margin: auto;
+  color: #8f8f8f;
+}
+
+/* second page */
+.fasa {
+  color: #ef8172;
+}
+
+.fasa:hover {
+  color: #ff4c68;
+}
+
+/* third page */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* 4th page */
+.pricing-column {
+  border: 0;
+}
+
+.card-items {
+  margin: 3%;
+}
+
+.cta-msg {
+  font-size: 200%;
+  color: #fff;
+  font-weight: 900;
+  width: 60%;
+  margin: auto auto 30px;
+}
+
+.flogos {
+  margin: auto 10px 30px;
+  color: #212529;
+}
